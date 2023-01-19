@@ -34,7 +34,7 @@
 - [x] Main component successfully shows Pictures of corresponding Pokemon
 - [x] Display 3 components to match corresponding Pokemon
 - [x] PokeCard CSS to get a general style / idea of displaying Pokemon on the Page
-- Type Select Dropdown implemented on page with the different types set as the options from the Types prop
+- [x] Type Select Dropdown implemented on page with the different types set as the options from the Types prop
 - Type Select Dropdown working to display the Pokemon by their set type
 - CSS styling of Type Select Dropdown
 - Loading State is implemented so users see the Loading State when the data is being retrieved
