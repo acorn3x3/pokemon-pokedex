@@ -30,7 +30,7 @@
 
 ## Planning
 
-- Main component successfully shows the first 20 pokemon return from the API
+- [x] Main component successfully shows the first 20 pokemon return from the API
 - Main component successfully shows Pictures of corresponding Pokemon
 - Display 3 components to match corresponding Pokemon
 - PokeCard CSS to get a general style / idea of displaying Pokemon on the Page
