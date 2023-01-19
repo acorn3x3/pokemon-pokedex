@@ -1,13 +1,14 @@
 import React from 'react';
 import './PokemonCard.css';
 
-export default function PokemonCard({ pokemon }) {
+export default function PokemonCard({ pokemon, hp, attack, defense, url_image }) {
   return (
     <div className="PokemonCard">
-      <div className="pokemon">{pokemon}</div>
-      {/* <div className="_id">{_id}</div>
-      <div className="id">{id}</div>
-      <image src={`http://www.pokemon.com/us/pokedex/${pokemon}`}></image> */}
+      <p className="pokemon">{pokemon}</p>
+      <img src={url_image} style={{ height: '100px', width: 'auto' }} />
+      <div className="hp">HP: {hp}</div>
+      <div className="attack">Attack: {attack}</div>
+      <div className="defense">Defense: {defense}</div>
     </div>
   );
 }
