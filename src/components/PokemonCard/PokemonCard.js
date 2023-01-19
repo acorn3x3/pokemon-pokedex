@@ -1,4 +1,5 @@
 import React from 'react';
+import './PokemonCard.css';
 
 export default function PokemonCard({ pokemon, _id, id }) {
   return (
