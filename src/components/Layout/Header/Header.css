@@ -1,0 +1,23 @@
+.header {
+  color: #ffcb05;
+  font-weight: bold;
+  background-color: #2a75bb;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 40px;
+  width: 100%;
+  top: 0;
+  justify-items: center;
+  margin-bottom: 42px;
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  border-color: #ffcb05;
+
+  position: fixed;
+}
+
+.words {
+  margin-left: 20px;
+  font-style: italic;
+}

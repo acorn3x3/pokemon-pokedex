@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Layout/Header/Header.js';
+import Main from './components/Main/Main';
+import Footer from './components/Layout/Footer/Footer.js';
+import background from '../src/PokemonBackground.jpg';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section
+      className="app"
+      style={{
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed',
+        background: `url(${background})`,
+        minHeight: '100vh',
+      }}
+    >
+      <Header />
+      <Main />
+      <Footer />
+    </section>
   );
 }
 
