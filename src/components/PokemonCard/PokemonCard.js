@@ -9,8 +9,8 @@ export default function PokemonCard({ pokemon, hp, attack, defense, url_image, t
       <div className="hp">HP: {hp}</div>
       <div className="attack">Attack: {attack}</div>
       <div className="defense">Defense: {defense}</div>
-      <div className="type_1">Defense: {type_1}</div>
-      <div className="type_2">Defense: {type_2}</div>
+      <div className="type_1">Type 1: {type_1}</div>
+      <div className="type_2">Type 2: {type_2}</div>
     </div>
   );
 }
