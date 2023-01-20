@@ -1,16 +1,31 @@
 import React from 'react';
 import './PokemonCard.css';
+import Sword from '../../../src/attackIcon.png';
+import Shield from '../../../src/shieldIcon.png';
+import Health from '../../../src/heartIcon.png';
 
 export default function PokemonCard({ pokemon, hp, attack, defense, url_image, type_1, type_2 }) {
   return (
     <div className="PokemonCard">
       <p className="pokemon">{pokemon}</p>
       <img src={url_image} style={{ height: '100px', width: 'auto' }} />
-      <div className="hp">HP: {hp}</div>
-      <div className="attack">Attack: {attack}</div>
-      <div className="defense">Defense: {defense}</div>
-      <div className="type_1">Type 1: {type_1}</div>
-      <div className="type_2">Type 2: {type_2}</div>
+      <span className="health">
+        <img src={Health} style={{ height: '20px', width: '20px' }} />
+        <p className="hp">{hp}</p>
+      </span>
+      <div className="fighting">
+        <span className="attack">
+          <img src={Sword} style={{ height: '15px', width: '15px' }} />
+          <p className="attack">{attack} </p>
+        </span>
+        <span className="defense">
+          <img src={Shield} style={{ height: '15px', width: '15px' }} />
+          <p className="defense">{defense}</p>
+        </span>
+      </div>
+      <p className="type_1">
+        Type 1: {type_1}, Type 2: {type_2}
+      </p>
     </div>
   );
 }

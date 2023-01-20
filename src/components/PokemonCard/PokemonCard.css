@@ -9,4 +9,48 @@
   padding: 5px;
   text-align: center;
   width: 200px;
+  height: 300px;
+}
+
+.pokemon {
+  font-weight: bold;
+  color: white;
+}
+
+.health {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.hp {
+  color: rgb(7, 163, 7);
+  margin-bottom: -18px;
+}
+
+.attack {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  margin-right: 5px;
+  color: rgb(204, 7, 7);
+}
+
+.defense {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin-left: 5px;
+  color: grey;
+}
+
+.fighting {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
 }
